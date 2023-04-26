@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+       
+        
+        center{
+           
+            color:red;
+            font-size:100px;
+            
+        }
+        label{
+            color:darkblue;
+            font-size:80px;
+
+        }
+        
+        body{
+           
+            border:100px solid green;
+            font-size:60px;
+            padding-left:90px;
+            background-image:url("https://img.freepik.com/free-vector/woman-checking-giant-check-list_23-2148099800.jpg?size=626&ext=jpg&ga=GA1.1.1811006048.1682153010&semt=robertav1_2_sidr");
+            background-size:100% 100%;
+            background-repeat:no-repeat;
+        }
+        input[type='text']{
+           
+            font-size:60px;
+           
+        }
+        input[type='number']{
+           
+           font-size:50px;
+           
+           
+       }
+        input[type='radio']{
+            border:0px;
+           width: 50px;
+           height: 50px;
+            
+        }
+        input[type='submit']{
+            font-size:70px;
+            color:black;
+        }
+        @media (max-width:600px){
+            center{
+                font-size:40px;
+                color:black;
+            }
+            label{
+                color:red;
+                font-size:30px;
+            }
+            .h1{
+                font-size:40px;
+                color:green;
+            }
+        body{
+            border:20px solid green;
+            padding-left:40px;
+
+
+
+        }
+            input[type='text']{
+           
+           font-size:20px;
+           width:240px;
+           height:20px;
+            }
+       input[type='number']{
+          
+          font-size:20px;
+          
+      }
+       input[type='radio']{
+           border:0px;
+          width: 20px;
+          height: 20px;
+           
+       }
+       input[type='submit']{
+           font-size:20px;
+           width:200px;
+           height:60px;
+           color:red;
+       
+
+        }
+        }
+        
+
+        
+        
+
+    </style>
+</head>
+<body>
+<form action="">
+    <h1><center><u>Survey form</u></center></h1>
+    <h1 class="h1">Name Section</h1>
+    <label for="Name">First name:</label>
+    <input type="text" placeholder="Enter your first name" id="Name" required><br>
+    <label for="Name">Last name:</label>
+    <input type="text" placeholder="Enter your last name" id="Name" required>
+    <br>
+    <h1 class="h1">Address Section</h1>
+    <br> <label for="Address">Street:</label>
+    <input type="text" placeholder="Enter your street" id="Address" required><br>
+    <label for="Address">City:</label>
+    <input type="text" placeholder="Enter your city" id="Address" required>
+    <br><label for="Address">State:</label>
+    <input type="text" placeholder="Enter your state" id="Address" required>
+    <br><label for="Address">Pin code:</label>
+    <input type="number" placeholder="Enter your pin code"id="Address" required>
+    <br>
+    <h1 class="h1">Phone Number</h1>
+    <label for="number">Phone Number:</label>
+    <input type="number" placeholder="Enter your Number"id="number" required> 
+    <br>
+    <center><b><u>REVIEW SECTION</u></b></center>
+    <h1 class="h1">Quality of prodeuct received</h1>
+    
+    <label for="Excellent">Excellent:</label>
+    <input type="radio" id="Excellent" name="one">
+    <label for="good">Good:</label>
+    <input type="radio" id="good" name="one">
+<label for="Bad">Bad:</label>
+    <input type="radio" id="Bad" name="one">
+    <br>
+    <h1 class="h1">Value of money and Deleivery</h1>
+    <label for="Excellent">Excellent:</label>
+    <input type="radio" id="Excellent" name="two">
+    <label for="good">Good:</label>
+    <input type="radio" id="good" name="two">
+<label for="Bad">Bad:</label>
+    <input type="radio" id="Bad" name="two">
+    <br>
+
+        
+    <input type="submit">
+    </form>
+   
+
+</body>
+</html>
